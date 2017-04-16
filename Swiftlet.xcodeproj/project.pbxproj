@@ -15,6 +15,18 @@
 		AF03BA991DEC8C3900F5B5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF03BA971DEC8C3900F5B5EC /* LaunchScreen.storyboard */; };
 		AF03BAA41DEC8C3900F5B5EC /* SwiftletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03BAA31DEC8C3900F5B5EC /* SwiftletTests.swift */; };
 		AF03BAAF1DEC8C3900F5B5EC /* SwiftletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03BAAE1DEC8C3900F5B5EC /* SwiftletUITests.swift */; };
+		AF03BABD1DEC8DB200F5B5EC /* SuperAdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03BABC1DEC8DB200F5B5EC /* SuperAdminLogin.swift */; };
+		AF03BABF1DEC954700F5B5EC /* VSCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03BABE1DEC954700F5B5EC /* VSCore.swift */; };
+		AF03BAC11DEC9AA300F5B5EC /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = AF03BAC01DEC9AA300F5B5EC /* fonts */; };
+		AF03BAC31DECAC2300F5B5EC /* PostRequirementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03BAC21DECAC2300F5B5EC /* PostRequirementVC.swift */; };
+		AF7F8A5D1DF6E2A80093FAB0 /* MenuSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F8A5C1DF6E2A80093FAB0 /* MenuSegment.swift */; };
+		AFA7D3C01E8523660008D08F /* AddProjectDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7D3BF1E8523660008D08F /* AddProjectDetailsVC.swift */; };
+		AFCD08FE1DF2DE3500074F6D /* ProjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD08FD1DF2DE3500074F6D /* ProjectVC.swift */; };
+		AFCD09001DF2DE5000074F6D /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD08FF1DF2DE5000074F6D /* AdminVC.swift */; };
+		AFCD09021DF2DE6700074F6D /* WorkerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCD09011DF2DE6700074F6D /* WorkerVC.swift */; };
+		AFF302E91EA1F6D90095DD85 /* My Clients.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF302E81EA1F6D90095DD85 /* My Clients.png */; };
+		AFF302EE1EA1FBEF0095DD85 /* RMMultipleViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF302EB1EA1FBEF0095DD85 /* RMMultipleViewsController.m */; };
+		AFF302EF1EA1FBEF0095DD85 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF302ED1EA1FBEF0095DD85 /* HMSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,21 @@
 		AF03BAAA1DEC8C3900F5B5EC /* SwiftletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF03BAAE1DEC8C3900F5B5EC /* SwiftletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftletUITests.swift; sourceTree = "<group>"; };
 		AF03BAB01DEC8C3900F5B5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF03BABC1DEC8DB200F5B5EC /* SuperAdminLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperAdminLogin.swift; sourceTree = "<group>"; };
+		AF03BABE1DEC954700F5B5EC /* VSCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSCore.swift; sourceTree = "<group>"; };
+		AF03BAC01DEC9AA300F5B5EC /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		AF03BAC21DECAC2300F5B5EC /* PostRequirementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRequirementVC.swift; sourceTree = "<group>"; };
+		AF7F8A5C1DF6E2A80093FAB0 /* MenuSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSegment.swift; sourceTree = "<group>"; };
+		AFA7D3BF1E8523660008D08F /* AddProjectDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProjectDetailsVC.swift; sourceTree = "<group>"; };
+		AFCD08F41DF2CE9100074F6D /* Swiftlet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swiftlet-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFCD08FD1DF2DE3500074F6D /* ProjectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectVC.swift; sourceTree = "<group>"; };
+		AFCD08FF1DF2DE5000074F6D /* AdminVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminVC.swift; sourceTree = "<group>"; };
+		AFCD09011DF2DE6700074F6D /* WorkerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerVC.swift; sourceTree = "<group>"; };
+		AFF302E81EA1F6D90095DD85 /* My Clients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My Clients.png"; sourceTree = "<group>"; };
+		AFF302EA1EA1FBEF0095DD85 /* RMMultipleViewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMultipleViewsController.h; sourceTree = "<group>"; };
+		AFF302EB1EA1FBEF0095DD85 /* RMMultipleViewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMultipleViewsController.m; sourceTree = "<group>"; };
+		AFF302EC1EA1FBEF0095DD85 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		AFF302ED1EA1FBEF0095DD85 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +128,22 @@
 			children = (
 				AF03BA8B1DEC8C3900F5B5EC /* AppDelegate.swift */,
 				AF03BA8D1DEC8C3900F5B5EC /* ViewController.swift */,
+				AF7F8A5C1DF6E2A80093FAB0 /* MenuSegment.swift */,
+				AFCD08FD1DF2DE3500074F6D /* ProjectVC.swift */,
+				AFCD08FF1DF2DE5000074F6D /* AdminVC.swift */,
+				AFCD09011DF2DE6700074F6D /* WorkerVC.swift */,
+				AF03BAC21DECAC2300F5B5EC /* PostRequirementVC.swift */,
+				AF03BABC1DEC8DB200F5B5EC /* SuperAdminLogin.swift */,
+				AFA7D3BF1E8523660008D08F /* AddProjectDetailsVC.swift */,
+				AF03BABE1DEC954700F5B5EC /* VSCore.swift */,
 				AF03BA8F1DEC8C3900F5B5EC /* Main.storyboard */,
 				AF03BA951DEC8C3900F5B5EC /* Assets.xcassets */,
+				AFF302E81EA1F6D90095DD85 /* My Clients.png */,
 				AF03BA971DEC8C3900F5B5EC /* LaunchScreen.storyboard */,
 				AF03BA9A1DEC8C3900F5B5EC /* Info.plist */,
 				AF03BA921DEC8C3900F5B5EC /* Swiftlet.xcdatamodeld */,
+				AFCD08F31DF2CE6E00074F6D /* CustomControls */,
+				AF03BAC01DEC9AA300F5B5EC /* fonts */,
 			);
 			path = Swiftlet;
 			sourceTree = "<group>";
@@ -126,6 +164,18 @@
 				AF03BAB01DEC8C3900F5B5EC /* Info.plist */,
 			);
 			path = SwiftletUITests;
+			sourceTree = "<group>";
+		};
+		AFCD08F31DF2CE6E00074F6D /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				AFF302EA1EA1FBEF0095DD85 /* RMMultipleViewsController.h */,
+				AFF302EB1EA1FBEF0095DD85 /* RMMultipleViewsController.m */,
+				AFF302EC1EA1FBEF0095DD85 /* HMSegmentedControl.h */,
+				AFF302ED1EA1FBEF0095DD85 /* HMSegmentedControl.m */,
+				AFCD08F41DF2CE9100074F6D /* Swiftlet-Bridging-Header.h */,
+			);
+			name = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +246,8 @@
 				TargetAttributes = {
 					AF03BA871DEC8C3900F5B5EC = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
 					};
 					AF03BA9E1DEC8C3900F5B5EC = {
 						CreatedOnToolsVersion = 8.0;
@@ -238,6 +289,8 @@
 				AF03BA991DEC8C3900F5B5EC /* LaunchScreen.storyboard in Resources */,
 				AF03BA961DEC8C3900F5B5EC /* Assets.xcassets in Resources */,
 				AF03BA911DEC8C3900F5B5EC /* Main.storyboard in Resources */,
+				AFF302E91EA1F6D90095DD85 /* My Clients.png in Resources */,
+				AF03BAC11DEC9AA300F5B5EC /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +315,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCD09021DF2DE6700074F6D /* WorkerVC.swift in Sources */,
+				AF7F8A5D1DF6E2A80093FAB0 /* MenuSegment.swift in Sources */,
+				AF03BAC31DECAC2300F5B5EC /* PostRequirementVC.swift in Sources */,
+				AFF302EE1EA1FBEF0095DD85 /* RMMultipleViewsController.m in Sources */,
+				AFCD09001DF2DE5000074F6D /* AdminVC.swift in Sources */,
+				AFF302EF1EA1FBEF0095DD85 /* HMSegmentedControl.m in Sources */,
+				AF03BABF1DEC954700F5B5EC /* VSCore.swift in Sources */,
 				AF03BA8E1DEC8C3900F5B5EC /* ViewController.swift in Sources */,
+				AF03BABD1DEC8DB200F5B5EC /* SuperAdminLogin.swift in Sources */,
+				AFA7D3C01E8523660008D08F /* AddProjectDetailsVC.swift in Sources */,
 				AF03BA8C1DEC8C3900F5B5EC /* AppDelegate.swift in Sources */,
+				AFCD08FE1DF2DE3500074F6D /* ProjectVC.swift in Sources */,
 				AF03BA941DEC8C3900F5B5EC /* Swiftlet.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,10 +479,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swiftlet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftLet.Swiftlet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swiftlet/Swiftlet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,10 +495,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swiftlet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftLet.Swiftlet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swiftlet/Swiftlet-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +579,7 @@
 				AF03BAB51DEC8C3900F5B5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF03BAB61DEC8C3900F5B5EC /* Build configuration list for PBXNativeTarget "SwiftletTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +588,7 @@
 				AF03BAB81DEC8C3900F5B5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF03BAB91DEC8C3900F5B5EC /* Build configuration list for PBXNativeTarget "SwiftletUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +597,7 @@
 				AF03BABB1DEC8C3900F5B5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
