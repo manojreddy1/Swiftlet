@@ -8,6 +8,7 @@
 
 import UIKit
 var manjuString = "Empty string"
+var manojString = "None"
 class ProjectVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
