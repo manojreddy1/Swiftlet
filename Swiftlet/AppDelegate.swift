@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+let v = "Manju Mac"
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
