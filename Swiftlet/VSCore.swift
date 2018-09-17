@@ -12,7 +12,6 @@ class VSCore: NSObject {
 
     func getColor(_ hexString: String, alpha:CGFloat? = 1.0) -> UIColor
     {
-        
         // Convert hex string to an integer
         let hexint = Int(self.intFromHexString(hexString))
         let red = CGFloat((hexint & 0xff0000) >> 16) / 255.0
