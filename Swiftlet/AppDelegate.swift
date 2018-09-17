@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 let v = "Manju Mac"
+let iPhone = ["Key": 1, "Key1": 2]
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
