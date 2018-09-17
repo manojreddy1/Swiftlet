@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+let v1 = "Manoj mac"
 let v = "Manju Mac"
 let iPhone = ["Key": 1, "Key1": 2]
 @UIApplicationMain
