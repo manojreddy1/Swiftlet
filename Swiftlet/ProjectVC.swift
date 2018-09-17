@@ -9,6 +9,7 @@
 import UIKit
 var manjuString = "Empty string"
 var manojString = "None"
+var vaayoo = "Vaayoo Inc"
 class ProjectVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
