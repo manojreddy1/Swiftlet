@@ -29,7 +29,9 @@ class ProjectVC: UIViewController {
 //        
 //        self.view.bringSubview(toFront: VC)
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        print("will appear")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
