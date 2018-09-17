@@ -9,6 +9,7 @@
 import UIKit
 var manjuString = "Empty string"
 var manojString = "None"
+var vaayooIphone = "iPhoneX"
 class ProjectVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
