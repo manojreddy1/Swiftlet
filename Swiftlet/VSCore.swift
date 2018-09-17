@@ -43,7 +43,8 @@ class VSCore: NSObject {
         
         //Check if the images folder is already exist?  if not create it!
         var isDir: ObjCBool = false
-        
+    
+        print(isDir)
         //if (fileManager.fileExists(atPath: imagesFolderPath as String, isDirectory: &isDir) && isDir) == false
         if fileManager.fileExists(atPath: imagesFolderPath as String, isDirectory:&isDir)
         {
