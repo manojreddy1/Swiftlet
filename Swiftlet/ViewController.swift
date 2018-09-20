@@ -8,6 +8,8 @@
 // Second commit has no changes...
 import UIKit
 let manoj = "manoj"
+let manoj1 = "manoj"
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
