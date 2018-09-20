@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 //var manjuString = "Empty string"
 var manojString = "None"
 var vaayooIphone = "iPhoneX"
