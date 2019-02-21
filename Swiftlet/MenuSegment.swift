@@ -1,10 +1,7 @@
-//
 //  MenuSegment.swift
 //  Swiftlet
-//
-//  Created by Manoj on 06/12/16.
-//  Copyright © 2016 Manoj. All rights reserved.
-//
+//  Created by Ranjeet Raushan on 22/Feb/16.
+//  Copyright © 2019  Vaayoo . All rights reserved.
 
 import UIKit
 
@@ -51,20 +48,5 @@ class MenuSegment: RMMultipleViewsController
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        //vie.sendSubview(toBack: self.segmentedControl)
     }
-
-   // i just removed viewDidReceiveMemoryWarning
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

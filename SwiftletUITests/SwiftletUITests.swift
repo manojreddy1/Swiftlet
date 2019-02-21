@@ -1,10 +1,7 @@
-//
 //  SwiftletUITests.swift
 //  SwiftletUITests
-//
-//  Created by Manoj on 28/11/16.
-//  Copyright © 2016 Manoj. All rights reserved.
-//
+//  Created by Ranjeet Raushan on 22/Feb/16.
+//  Copyright © 2019  Vaayoo . All rights reserved.
 
 import XCTest
 

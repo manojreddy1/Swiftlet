@@ -1,10 +1,7 @@
-//
 //  VSCore.swift
 //  TRUX
-//
-//  Created by Manoj on 09/06/16.
-//  Copyright © 2016 moc.vaayoo. All rights reserved.
-//
+//  Created by Ranjeet Raushan on 22/Feb/16.
+//  Copyright © 2019  Vaayoo . All rights reserved.
 
 import UIKit
 

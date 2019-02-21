@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zy3-EV-yUT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zy3-EV-yUT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -667,14 +665,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3k-VO-6sd">
-                                        <rect key="frame" x="444" y="171" width="16" height="17"/>
+                                        <rect key="frame" x="444" y="172" width="16" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="16" id="7nL-n7-LlY"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="delete"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEA-XZ-Zf6">
-                                        <rect key="frame" x="536" y="171" width="15" height="16"/>
+                                        <rect key="frame" x="536" y="172" width="15" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="fQX-78-UTS"/>
                                         </constraints>
@@ -731,13 +729,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NONLIVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuW-jM-qIP">
-                                        <rect key="frame" x="416" y="253" width="73" height="21"/>
+                                        <rect key="frame" x="415" y="253" width="74" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.67843137254901964" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="SeU-oY-i4m">
-                                        <rect key="frame" x="3" y="402" width="564" height="1"/>
+                                        <rect key="frame" x="3" y="401" width="564" height="1"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assign workers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uC-F1-Q9M">
                                         <rect key="frame" x="35" y="364" width="123" height="21"/>
@@ -776,10 +774,9 @@
                                         <state key="normal" backgroundImage="add"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfB-AD-AMq">
-                                        <rect key="frame" x="527" y="364" width="12" height="22"/>
+                                        <rect key="frame" x="527" y="364" width="12" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="12" id="24s-K2-RdB"/>
-                                            <constraint firstAttribute="height" constant="22" id="SCi-D6-vnQ"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="sideArrow"/>
                                     </button>
@@ -935,7 +932,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0M4-Bb-dPq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -950,15 +947,15 @@
     </scenes>
     <resources>
         <image name="Line" width="303" height="1"/>
-        <image name="On" width="40" height="25"/>
-        <image name="add" width="51" height="51"/>
-        <image name="assignSettings" width="21" height="19"/>
-        <image name="back" width="23" height="17"/>
-        <image name="delete" width="15" height="16"/>
+        <image name="On" width="40.5" height="25"/>
+        <image name="add" width="51.5" height="51.5"/>
+        <image name="assignSettings" width="21.5" height="19"/>
+        <image name="back" width="23.5" height="17"/>
+        <image name="delete" width="15" height="16.5"/>
         <image name="edit" width="15" height="15"/>
-        <image name="imageLogo" width="75" height="75"/>
-        <image name="leftArrow" width="23" height="17"/>
-        <image name="off" width="40" height="27"/>
+        <image name="imageLogo" width="75.5" height="75.5"/>
+        <image name="leftArrow" width="23.5" height="17"/>
+        <image name="off" width="40.5" height="27.5"/>
         <image name="sideArrow" width="6" height="11"/>
     </resources>
 </document>
