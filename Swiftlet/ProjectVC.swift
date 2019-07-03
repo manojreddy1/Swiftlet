@@ -1,10 +1,7 @@
-//
 //  ProjectVC.swift
 //  Swiftlet
-//
-//  Created by Manoj on 03/12/16.
-//  Copyright © 2016 Manoj. All rights reserved.
-//
+//  Created by Ranjeet Raushan on 22/Feb/16.
+//  Copyright © 2019  Vaayoo . All rights reserved.
 
 import UIKit
 //var manjuString = "Empty string"
@@ -35,20 +32,4 @@ class ProjectVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         print("will appear")
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
