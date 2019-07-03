@@ -5,15 +5,12 @@
 
 // Second commit has no changes...
 import UIKit
-let manoj = "manoj"
-let manoj1 = "manoj"
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("ok")
     }
 
     override func didReceiveMemoryWarning() {
