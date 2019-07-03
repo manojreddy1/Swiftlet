@@ -19,10 +19,10 @@ class SuperAdminLogin: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        txt_username.leftViewMode = UITextFieldViewMode.always
+        txt_username.leftViewMode = UITextField.ViewMode.always
         txt_username.leftView = UIImageView.init(image: UIImage.init(named: "UserImg"))
         
-        txt_password.leftViewMode = UITextFieldViewMode.always
+        txt_password.leftViewMode = UITextField.ViewMode.always
         txt_password.leftView = UIImageView.init(image: UIImage.init(named: "PassImg"))
         
         btn_login.backgroundColor = VSCore().getColor("#0088ee")

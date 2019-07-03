@@ -17,7 +17,7 @@ class AddProjectDetailsVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        naviBar.titleTextAttributes = [NSForegroundColorAttributeName: VSCore().getColor("232f79")]
+        naviBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: VSCore().getColor("232f79")]
         
         view1.backgroundColor = UIColor.white
         view1.layer.cornerRadius = 3.0

@@ -17,7 +17,7 @@ class PostRequirementVC: UIViewController {
 
         // Do any additional setup after loading the view.
         UINavigationBar.appearance().barTintColor = VSCore().getColor("#0088ee")
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
         //self.navigationController?.navigationBar.tintColor = VSCore().getColor("#6d6e70")
         
         btn_submit.backgroundColor = VSCore().getColor("#0088ee")
